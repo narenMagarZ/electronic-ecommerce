@@ -1,0 +1,826 @@
+[
+    {
+      "name": "Anker PowerPort",
+      "price": 675.11,
+      "discountPercentage": 0,
+      "stock": 52,
+      "category": "charger",
+      "productImg": "http://localhost:5000/ch.jpg"
+    },
+    {
+      "name": "Belkin Boost",
+      "price": 520.99,
+      "discountPercentage": 0,
+      "stock": 19,
+      "category": "charger",
+      "productImg": "http://localhost:5000/ch1.jpg"
+    },
+    {
+      "name": "RAVPower",
+      "price": 559.8,
+      "discountPercentage": 0,
+      "stock": 43,
+      "category": "charger",
+      "productImg": "http://localhost:5000/ch2.jpg"
+    },
+    {
+      "name": "AUKEY",
+      "price": 50.16,
+      "discountPercentage": 0,
+      "stock": 66,
+      "category": "charger",
+      "productImg": "http://localhost:5000/ch3.jpg"
+    },
+    {
+      "name": "Samsung Fast Charge",
+      "price": 918.04,
+      "discountPercentage": 0.85,
+      "stock": 88,
+      "category": "charger",
+      "productImg": "http://localhost:5000/ch4.jpg"
+    },
+    {
+      "name": "Anker PowerPort",
+      "price": 680.67,
+      "discountPercentage": 0.1,
+      "stock": 60,
+      "category": "charger",
+      "productImg": "http://localhost:5000/ch5.jpg"
+    },
+    {
+      "name": "Belkin Boost",
+      "price": 213.7,
+      "discountPercentage": 0,
+      "stock": 52,
+      "category": "charger",
+      "productImg": "http://localhost:5000/ch6.jpg"
+    },
+    {
+      "name": "RAVPower",
+      "price": 545.6,
+      "discountPercentage": 0,
+      "stock": 86,
+      "category": "charger",
+      "productImg": "http://localhost:5000/ch7.jpg"
+    },
+    {
+      "name": "AUKEY",
+      "price": 38.67,
+      "discountPercentage": 0.35,
+      "stock": 10,
+      "category": "charger",
+      "productImg": "http://localhost:5000/ch8.jpg"
+    },
+    {
+      "name": "Samsung Fast Charge",
+      "price": 139.73,
+      "discountPercentage": 0.5,
+      "stock": 50,
+      "category": "charger",
+      "productImg": "http://localhost:5000/ch9.jpg"
+    },
+    {
+      "name": "Apple AirPods",
+      "price": 931.32,
+      "discountPercentage": 3.64,
+      "stock": 53,
+      "category": "ear bud",
+      "productImg": "http://localhost:5000/ib.jpg"
+    },
+    {
+      "name": "Sony WF-1000XM3",
+      "price": 593.38,
+      "discountPercentage": 0,
+      "stock": 30,
+      "category": "ear bud",
+      "productImg": "http://localhost:5000/ib1.jpg"
+    },
+    {
+      "name": "Jabra Elite 75t",
+      "price": 189.49,
+      "discountPercentage": 0,
+      "stock": 67,
+      "category": "ear bud",
+      "productImg": "http://localhost:5000/ib2.jpg"
+    },
+    {
+      "name": "Bose QuietComfort Earbuds",
+      "price": 111.94,
+      "discountPercentage": 0,
+      "stock": 23,
+      "category": "ear bud",
+      "productImg": "http://localhost:5000/ib3.jpg"
+    },
+    {
+      "name": "Samsung Galaxy Buds",
+      "price": 292.51,
+      "discountPercentage": 1.58,
+      "stock": 84,
+      "category": "ear bud",
+      "productImg": "http://localhost:5000/ib4.jpg"
+    },
+    {
+      "name": "Apple AirPods",
+      "price": 305.42,
+      "discountPercentage": 0,
+      "stock": 54,
+      "category": "ear bud",
+      "productImg": "http://localhost:5000/ib5.jpg"
+    },
+    {
+      "name": "Sony WF-1000XM3",
+      "price": 245.69,
+      "discountPercentage": 0,
+      "stock": 17,
+      "category": "ear bud",
+      "productImg": "http://localhost:5000/ib6.jpg"
+    },
+    {
+      "name": "Jabra Elite 75t",
+      "price": 543.87,
+      "discountPercentage": 0,
+      "stock": 85,
+      "category": "ear bud",
+      "productImg": "http://localhost:5000/ib7.jpg"
+    },
+    {
+      "name": "Bose QuietComfort Earbuds",
+      "price": 661.58,
+      "discountPercentage": 1.1,
+      "stock": 86,
+      "category": "ear bud",
+      "productImg": "http://localhost:5000/ib8.jpg"
+    },
+    {
+      "name": "Samsung Galaxy Buds",
+      "price": 832.0,
+      "discountPercentage": 0,
+      "stock": 83,
+      "category": "ear bud",
+      "productImg": "http://localhost:5000/ib9.jpg"
+    },
+    {
+      "name": "Apple AirPods",
+      "price": 315.37,
+      "discountPercentage": 4.55,
+      "stock": 25,
+      "category": "ear bud",
+      "productImg": "http://localhost:5000/ib10.jpg"
+    },
+    {
+      "name": "Sony WF-1000XM3 11",
+      "price": 541.76,
+      "discountPercentage": 0,
+      "stock": 6,
+      "category": "ear bud",
+      "productImg": "http://localhost:5000/ib11.jpg"
+    },
+    {
+      "name": "iPhone 13",
+      "price": 80.25,
+      "discountPercentage": 0,
+      "stock": 9,
+      "category": "phone",
+      "productImg": "http://localhost:5000/ip.jpg"
+    },
+    {
+      "name": "Samsung Galaxy S21",
+      "price": 986.99,
+      "discountPercentage": 0,
+      "stock": 84,
+      "category": "phone",
+      "productImg": "http://localhost:5000/ip1.jpg"
+    },
+    {
+      "name": "OnePlus 9",
+      "price": 492.66,
+      "discountPercentage": 3.19,
+      "stock": 16,
+      "category": "phone",
+      "productImg": "http://localhost:5000/ip2.jpg"
+    },
+    {
+      "name": "Google Pixel 6",
+      "price": 489.38,
+      "discountPercentage": 0,
+      "stock": 84,
+      "category": "phone",
+      "productImg": "http://localhost:5000/ip3.jpg"
+    },
+    {
+      "name": "Sony Xperia 5",
+      "price": 609.33,
+      "discountPercentage": 0,
+      "stock": 74,
+      "category": "phone",
+      "productImg": "http://localhost:5000/ip4.jpg"
+    },
+    {
+      "name": "iPhone 13",
+      "price": 56.94,
+      "discountPercentage": 0,
+      "stock": 78,
+      "category": "phone",
+      "productImg": "http://localhost:5000/ip5.jpg"
+    },
+    {
+      "name": "Samsung Galaxy S21",
+      "price": 424.58,
+      "discountPercentage": 0,
+      "stock": 52,
+      "category": "phone",
+      "productImg": "http://localhost:5000/ph.jpg"
+    },
+    {
+      "name": "OnePlus 9",
+      "price": 752.96,
+      "discountPercentage": 0,
+      "stock": 87,
+      "category": "phone",
+      "productImg": "http://localhost:5000/ph1.jpg"
+    },
+    {
+      "name": "Google Pixel 6",
+      "price": 810.33,
+      "discountPercentage": 0,
+      "stock": 24,
+      "category": "phone",
+      "productImg": "http://localhost:5000/ph2.jpg"
+    },
+    {
+      "name": "Sony Xperia 5",
+      "price": 104.11,
+      "discountPercentage": 0,
+      "stock": 1,
+      "category": "phone",
+      "productImg": "http://localhost:5000/ph2.jpg"
+    },
+    {
+      "name": "iPhone 13",
+      "price": 805.96,
+      "discountPercentage": 0,
+      "stock": 8,
+      "category": "phone",
+      "productImg": "http://localhost:5000/ph3.jpg"
+    },
+    {
+      "name": "Samsung Galaxy S21",
+      "price": 301.47,
+      "discountPercentage": 0,
+      "stock": 79,
+      "category": "phone",
+      "productImg": "http://localhost:5000/ph4.jpg"
+    },
+    {
+      "name": "OnePlus 9",
+      "price": 659.58,
+      "discountPercentage": 0,
+      "stock": 43,
+      "category": "phone",
+      "productImg": "http://localhost:5000/ph5.jpg"
+    },
+    {
+      "name": "Google Pixel 6 ",
+      "price": 557.77,
+      "discountPercentage": 0,
+      "stock": 27,
+      "category": "phone",
+      "productImg": "http://localhost:5000/ph6.jpg"
+    },
+    {
+      "name": "Sony Xperia 5",
+      "price": 769.27,
+      "discountPercentage": 0,
+      "stock": 81,
+      "category": "phone",
+      "productImg": "http://localhost:5000/ph7.jpg"
+    },
+    {
+      "name": "iPhone 13",
+      "price": 514.93,
+      "discountPercentage": 0,
+      "stock": 85,
+      "category": "phone",
+      "productImg": "http://localhost:5000/ph8.jpg"
+    },
+    {
+      "name": "Samsung Galaxy S21",
+      "price": 36.2,
+      "discountPercentage": 0,
+      "stock": 24,
+      "category": "phone",
+      "productImg": "http://localhost:5000/ph9.jpg"
+    },
+    {
+      "name": "OnePlus 9",
+      "price": 875.66,
+      "discountPercentage": 0,
+      "stock": 27,
+      "category": "phone",
+      "productImg": "http://localhost:5000/ph10.jpg"
+    },
+    {
+      "name": "Dell XPS",
+      "price": 909.36,
+      "discountPercentage": 3.94,
+      "stock": 22,
+      "category": "pc",
+      "productImg": "http://localhost:5000/pc.jpg"
+    },
+    {
+      "name": "HP Envy 2",
+      "price": 885.4,
+      "discountPercentage": 1.3,
+      "stock": 20,
+      "category": "pc",
+      "productImg": "http://localhost:5000/pc1.jpg"
+    },
+    {
+      "name": "Acer Predator 3",
+      "price": 843.89,
+      "discountPercentage": 0,
+      "stock": 29,
+      "category": "pc",
+      "productImg": "http://localhost:5000/pc2.jpg"
+    },
+    {
+      "name": "Asus ROG 4",
+      "price": 449.74,
+      "discountPercentage": 0.7,
+      "stock": 15,
+      "category": "pc",
+      "productImg": "http://localhost:5000/pc3.jpg"
+    },
+    {
+      "name": "Lenovo ThinkCentre",
+      "price": 224.16,
+      "discountPercentage": 0,
+      "stock": 64,
+      "category": "pc",
+      "productImg": "http://localhost:5000/pc4.jpg"
+    },
+    {
+      "name": "Dell XPS",
+      "price": 877.98,
+      "discountPercentage": 0,
+      "stock": 62,
+      "category": "pc",
+      "productImg": "http://localhost:5000/pc5.jpg"
+    },
+    {
+      "name": "HP Envy",
+      "price": 577.38,
+      "discountPercentage": 0,
+      "stock": 50,
+      "category": "pc",
+      "productImg": "http://localhost:5000/pc6.jpg"
+    },
+    {
+      "name": "Logitech MX Master",
+      "price": 928.24,
+      "discountPercentage": 0,
+      "stock": 47,
+      "category": "mouse",
+      "productImg": "http://localhost:5000/mu.jpg"
+    },
+    {
+      "name": "Razer DeathAdder",
+      "price": 662.45,
+      "discountPercentage": 0,
+      "stock": 84,
+      "category": "mouse",
+      "productImg": "http://localhost:5000/mu1.jpg"
+    },
+    {
+      "name": "SteelSeries Rival",
+      "price": 487.84,
+      "discountPercentage": 0,
+      "stock": 28,
+      "category": "mouse",
+      "productImg": "http://localhost:5000/mu2.jpg"
+    },
+    {
+      "name": "Corsair Harpoon",
+      "price": 105.97,
+      "discountPercentage": 0,
+      "stock": 21,
+      "category": "mouse",
+      "productImg": "http://localhost:5000/mu3.jpg"
+    },
+    {
+      "name": "Microsoft Arc",
+      "price": 718.09,
+      "discountPercentage": 0,
+      "stock": 57,
+      "category": "mouse",
+      "productImg": "http://localhost:5000/mu4.jpg"
+    },
+    {
+      "name": "Logitech MX Master",
+      "price": 133.23,
+      "discountPercentage": 0,
+      "stock": 2,
+      "category": "mouse",
+      "productImg": "http://localhost:5000/mu5.jpg"
+    },
+    {
+      "name": "Razer DeathAdder",
+      "price": 319.42,
+      "discountPercentage": 0,
+      "stock": 82,
+      "category": "mouse",
+      "productImg": "http://localhost:5000/mu6.jpg"
+    },
+    {
+      "name": "SteelSeries Rival",
+      "price": 112.85,
+      "discountPercentage": 0,
+      "stock": 4,
+      "category": "mouse",
+      "productImg": "http://localhost:5000/mu7.jpg"
+    },
+    {
+      "name": "Corsair Harpoon",
+      "price": 835.18,
+      "discountPercentage": 0,
+      "stock": 3,
+      "category": "mouse",
+      "productImg": "http://localhost:5000/mu8.jpg"
+    },
+    {
+      "name": "Microsoft Arc",
+      "price": 429.19,
+      "discountPercentage": 0,
+      "stock": 63,
+      "category": "mouse",
+      "productImg": "http://localhost:5000/mu9.jpg"
+    },
+    {
+      "name": "Logitech MX Master",
+      "price": 825.75,
+      "discountPercentage": 0,
+      "stock": 19,
+      "category": "mouse",
+      "productImg": "http://localhost:5000/mu10.jpg"
+    },
+    {
+      "name": "Razer DeathAdder",
+      "price": 269.0,
+      "discountPercentage": 0,
+      "stock": 100,
+      "category": "mouse",
+      "productImg": "http://localhost:5000/mu11.jpg"
+    },
+    {
+      "name": "SteelSeries Rival",
+      "price": 302.05,
+      "discountPercentage": 0,
+      "stock": 44,
+      "category": "mouse",
+      "productImg": "http://localhost:5000/mu12.jpg"
+    },
+    {
+      "name": "Dell UltraSharp",
+      "price": 876.11,
+      "discountPercentage": 0,
+      "stock": 18,
+      "category": "monitor",
+      "productImg": "http://localhost:5000/m.jpg"
+    },
+    {
+      "name": "Samsung Odyssey",
+      "price": 985.62,
+      "discountPercentage": 2,
+      "stock": 82,
+      "category": "monitor",
+      "productImg": "http://localhost:5000/m1.jpg"
+    },
+    {
+      "name": "LG UltraFine",
+      "price": 761.9,
+      "discountPercentage": 0,
+      "stock": 73,
+      "category": "monitor",
+      "productImg": "http://localhost:5000/m2.jpg"
+    },
+    {
+      "name": "Asus ProArt",
+      "price": 671.91,
+      "discountPercentage": 0,
+      "stock": 57,
+      "category": "monitor",
+      "productImg": "http://localhost:5000/m3.jpg"
+    },
+    {
+      "name": "BenQ PD",
+      "price": 76.56,
+      "discountPercentage": 0,
+      "stock": 80,
+      "category": "monitor",
+      "productImg": "http://localhost:5000/m4.jpg"
+    },
+    {
+      "name": "Dell UltraSharp",
+      "price": 911.41,
+      "discountPercentage": 0,
+      "stock": 66,
+      "category": "monitor",
+      "productImg": "http://localhost:5000/m5.jpg"
+    },
+    {
+      "name": "Samsung Odyssey",
+      "price": 962.2,
+      "discountPercentage": 0,
+      "stock": 43,
+      "category": "monitor",
+      "productImg": "http://localhost:5000/m6.jpg"
+    },
+    {
+      "name": "LG UltraFine",
+      "price": 542.0,
+      "discountPercentage": 0,
+      "stock": 20,
+      "category": "monitor",
+      "productImg": "http://localhost:5000/m7.jpg"
+    },
+    {
+      "name": "Asus ProArt",
+      "price": 626.25,
+      "discountPercentage": 0,
+      "stock": 62,
+      "category": "monitor",
+      "productImg": "http://localhost:5000/m8.jpg"
+    },
+    {
+      "name": "BenQ PD",
+      "price": 134.33,
+      "discountPercentage": 0,
+      "stock": 79,
+      "category": "monitor",
+      "productImg": "http://localhost:5000/m9.jpg"
+    },
+    {
+      "name": "Dell UltraSharp",
+      "price": 868.39,
+      "discountPercentage": 0,
+      "stock": 79,
+      "category": "monitor",
+      "productImg": "http://localhost:5000/m10.jpg"
+    },
+    {
+      "name": "iPad Pro",
+      "price": 436.49,
+      "discountPercentage": 0,
+      "stock": 39,
+      "category": "tablet",
+      "productImg": "http://localhost:5000/ipd.jpg"
+    },
+    {
+      "name": "Samsung Galaxy Tab",
+      "price": 210.94,
+      "discountPercentage": 0,
+      "stock": 55,
+      "category": "tablet",
+      "productImg": "http://localhost:5000/ipd1.jpg"
+    },
+    {
+      "name": "Microsoft Surface Go",
+      "price": 122.86,
+      "discountPercentage": 0,
+      "stock": 19,
+      "category": "tablet",
+      "productImg": "http://localhost:5000/ipd2.jpg"
+    },
+    {
+      "name": "Amazon Fire HD",
+      "price": 695.06,
+      "discountPercentage": 0,
+      "stock": 96,
+      "category": "tablet",
+      "productImg": "http://localhost:5000/tab.jpg"
+    },
+    {
+      "name": "Lenovo Tab",
+      "price": 936.59,
+      "discountPercentage": 0,
+      "stock": 21,
+      "category": "tablet",
+      "productImg": "http://localhost:5000/tab1.jpg"
+    },
+    {
+      "name": "iPad Pro",
+      "price": 733.34,
+      "discountPercentage": 0,
+      "stock": 90,
+      "category": "tablet",
+      "productImg": "http://localhost:5000/tab2.jpg"
+    },
+    {
+      "name": "Samsung Galaxy Tab",
+      "price": 262.32,
+      "discountPercentage": 0,
+      "stock": 15,
+      "category": "tablet",
+      "productImg": "http://localhost:5000/tab3.jpg"
+    },
+    {
+      "name": "Microsoft Surface Go",
+      "price": 945.73,
+      "discountPercentage": 1,
+      "stock": 97,
+      "category": "tablet",
+      "productImg": "http://localhost:5000/tab4.jpg"
+    },
+    {
+      "name": "Amazon Fire HD",
+      "price": 104.25,
+      "discountPercentage": 0,
+      "stock": 19,
+      "category": "tablet",
+      "productImg": "http://localhost:5000/tab5.jpg"
+    },
+    {
+      "name": "Lenovo Tab",
+      "price": 730.09,
+      "discountPercentage": 1,
+      "stock": 74,
+      "category": "tablet",
+      "productImg": "http://localhost:5000/tab6.jpg"
+    },
+    {
+      "name": "iPad Pro",
+      "price": 427.56,
+      "discountPercentage": 0,
+      "stock": 82,
+      "category": "tablet",
+      "productImg": "http://localhost:5000/tab7.jpg"
+    },
+    {
+      "name": "Samsung Galaxy Tab",
+      "price": 599.7,
+      "discountPercentage": 0,
+      "stock": 7,
+      "category": "tablet",
+      "productImg": "http://localhost:5000/tab8.jpg"
+    },
+    {
+      "name": "Samsung QLED",
+      "price": 594.43,
+      "discountPercentage": 0,
+      "stock": 16,
+      "category": "tv",
+      "productImg": "http://localhost:5000/tv.jpg"
+    },
+    {
+      "name": "LG OLED",
+      "price": 215.03,
+      "discountPercentage": 0,
+      "stock": 94,
+      "category": "tv",
+      "productImg": "http://localhost:5000/tv1.jpg"
+    },
+    {
+      "name": "Sony Bravia 3",
+      "price": 356.65,
+      "discountPercentage": 0,
+      "stock": 36,
+      "category": "tv",
+      "productImg": "http://localhost:5000/tv2.jpg"
+    },
+    {
+      "name": "TCL Roku 4",
+      "price": 383.06,
+      "discountPercentage": 0,
+      "stock": 13,
+      "category": "tv",
+      "productImg": "http://localhost:5000/tv3.jpg"
+    },
+    {
+      "name": "Vizio M-Series",
+      "price": 251.4,
+      "discountPercentage": 0,
+      "stock": 68,
+      "category": "tv",
+      "productImg": "http://localhost:5000/tv4.jpg"
+    },
+    {
+      "name": "Samsung QLED",
+      "price": 910.12,
+      "discountPercentage": 0,
+      "stock": 79,
+      "category": "tv",
+      "productImg": "http://localhost:5000/tv5.jpg"
+    },
+    {
+      "name": "LG OLED",
+      "price": 829.57,
+      "discountPercentage": 0,
+      "stock": 29,
+      "category": "tv",
+      "productImg": "http://localhost:5000/tv6.jpg"
+    },
+    {
+      "name": "Sony Bravia",
+      "price": 36.35,
+      "discountPercentage": 0,
+      "stock": 63,
+      "category": "tv",
+      "productImg": "http://localhost:5000/tv7.jpg"
+    },
+    {
+      "name": "TCL Roku",
+      "price": 568.23,
+      "discountPercentage": 0,
+      "stock": 35,
+      "category": "tv",
+      "productImg": "http://localhost:5000/tv8.jpg"
+    },
+    {
+      "name": "Vizio M-Series",
+      "price": 275.01,
+      "discountPercentage": 0,
+      "stock": 6,
+      "category": "tv",
+      "productImg": "http://localhost:5000/tv9-Series_10.jpg"
+    },
+    {
+      "name": "Logitech K780",
+      "price": 515.32,
+      "discountPercentage": 0,
+      "stock": 57,
+      "category": "keyboard",
+      "productImg": "http://localhost:5000/k1.jpg"
+    },
+    {
+      "name": "Corsair K95",
+      "price": 442.63,
+      "discountPercentage": 0,
+      "stock": 24,
+      "category": "keyboard",
+      "productImg": "http://localhost:5000/k2.jpg"
+    },
+    {
+      "name": "Razer BlackWidow 3",
+      "price": 26.32,
+      "discountPercentage": 0,
+      "stock": 86,
+      "category": "keyboard",
+      "productImg": "http://localhost:5000/k3.jpg"
+    },
+    {
+      "name": "Microsoft Surface Keyboard 4",
+      "price": 726.73,
+      "discountPercentage": 0,
+      "stock": 37,
+      "category": "keyboard",
+      "productImg": "http://localhost:5000/k4.jpg"
+    },
+    {
+      "name": "Apple Magic Keyboard 5",
+      "price": 239.95,
+      "discountPercentage": 0,
+      "stock": 58,
+      "category": "keyboard",
+      "productImg": "http://localhost:5000/k5.jpg"
+    },
+    {
+      "name": "Logitech K780 6",
+      "price": 719.85,
+      "discountPercentage": 0,
+      "stock": 5,
+      "category": "keyboard",
+      "productImg": "http://localhost:5000/k6.jpg"
+    },
+    {
+      "name": "Corsair K95 7",
+      "price": 106.07,
+      "discountPercentage": 9.89,
+      "stock": 40,
+      "category": "keyboard",
+      "productImg": "http://localhost:5000/k7.jpg"
+    },
+    {
+      "name": "Razer BlackWidow 8",
+      "price": 899.96,
+      "discountPercentage": 0,
+      "stock": 26,
+      "category": "keyboard",
+      "productImg": "http://localhost:5000/k8.jpg"
+    },
+    {
+      "name": "Microsoft Surface Keyboard 9",
+      "price": 185.21,
+      "discountPercentage": 0,
+      "stock": 8,
+      "category": "keyboard",
+      "productImg": "http://localhost:5000/k9.jpg"
+    },
+    {
+      "name": "Apple Magic Keyboard 10",
+      "price": 747.02,
+      "discountPercentage": 0,
+      "stock": 87,
+      "category": "keyboard",
+      "productImg": "http://localhost:5000/k10.jpg"
+    }
+  ]
