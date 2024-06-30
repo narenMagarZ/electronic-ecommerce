@@ -1,12 +1,27 @@
-
-interface ProductCardProps {
+interface ProductProps {
     id:string
-    title:string
-    discountPercentage:number
-    url:string
-    img:string
-    rating:number
+    name:string
+    stock:number
     price:number
-    sold:number
-    ratedCount:number
+    offerPrice?:number
+    productImg:string
+    url:string
+}
+
+
+
+interface SignInFormProps {
+    email:string
+    password:string
+
+}
+
+
+type SignupFormProps = {
+    fullName:string
+    phoneNumber:number
+    password:string
+    email:string
+    verificationCode:string
+    isAgreedToTermsAndConditions:boolean
 }

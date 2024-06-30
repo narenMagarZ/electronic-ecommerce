@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body{
+    background-color: #eeeeee;
+}
+
+
+.cart-container{
+    transform: translate(-10000000px);
+    transition:ease;
+}
+

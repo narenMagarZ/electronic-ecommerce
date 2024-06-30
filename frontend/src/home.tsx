@@ -1,21 +1,22 @@
 import React from 'react';
 import Navbar from './components/nav-bar';
 import ProductCatalog from './components/product-catalog';
+import { Outlet, Route, Routes } from 'react-router-dom';
+import Profile from './pages/profile';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import CategoryCatalog from './components/category-catalog';
 
 function Home() {
-  const PRODUCTS : ProductCardProps[] = [
-    {id:'',title:"Macbook 14inch, 8gb ram",price:120000,url:'',img:'',discountPercentage:10,rating:4.4,sold:20,ratedCount:18},
-    {id:'',title:"Macbook 14inch, 8gb ram",price:120000,url:'',img:'',discountPercentage:10,rating:4.4,sold:20,ratedCount:18},
-    {id:'',title:"Macbook 14inch, 8gb ram",price:120000,url:'',img:'',discountPercentage:10,rating:4.4,sold:20,ratedCount:18},
-    {id:'',title:"Macbook 14inch, 8gb ram",price:120000,url:'',img:'',discountPercentage:10,rating:4.4,sold:20,ratedCount:18},
-    {id:'',title:"Macbook 14inch, 8gb ram",price:120000,url:'',img:'',discountPercentage:10,rating:4.4,sold:20,ratedCount:18},
-    {id:'',title:"Macbook 14inch, 8gb ram",price:120000,url:'',img:'',discountPercentage:10,rating:4.4,sold:20,ratedCount:18},
-    {id:'',title:"Macbook 14inch, 8gb ram",price:120000,url:'',img:'',discountPercentage:10,rating:4.4,sold:20,ratedCount:18}
-  ]
+  const queryClient = new QueryClient()
   return (
     <div className="flex flex-col items-center justify-center">
-      <Navbar/>
-      <ProductCatalog products = {PRODUCTS} />
+      <QueryClientProvider client={queryClient}>
+        <Navbar/>
+        <Routes>
+          <Route path='/' element=<CategoryCatalog/> />
+        </Routes>
+        <Outlet/>
+      </QueryClientProvider>
     </div>
   );
 }

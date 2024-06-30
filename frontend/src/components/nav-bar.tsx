@@ -1,15 +1,23 @@
 import { Link } from "react-router-dom";
 import Searchbar from "./search-bar"
 import { MdKeyboardArrowDown } from "react-icons/md";
+import Cart from "./cart";
+import { IoMdPerson } from "react-icons/io";
 
 
 
 export default function Navbar(){
     return(
-        <div className="flex items-center gap-x-2 p-2">
-            <Catagories/>
-            <Searchbar/>
-        </div>
+        <header >
+            <nav className="flex items-center gap-x-4 p-2">
+                <Catagories/>
+                <Searchbar/>
+                <Cart/>
+                <Link to={'/signin'} >
+                <IoMdPerson/>
+                </Link>
+            </nav>
+        </header>
     )
 }
 
@@ -34,12 +42,12 @@ function Catagories(){
                     <MdKeyboardArrowDown/>
                 </span>
             </button>
-            <div className="group-hover:block hidden absolute w-full right-0">
-                <ul className="flex flex-col text-sm border bg-white z-50">
+            <div className="group-hover:block hidden absolute w-full z-50 right-0">
+                <ul className="flex flex-col text-sm border bg-white">
                     {
                         CATEGORORIES.map(({id,title})=>(
                             <li className=" hover:bg-gray-200 p-1 hover:text-orange-600" key={id} >
-                                <Link className="" to={`/catalog/?q=${title}`}>{title}</Link>
+                                <a className="" href={`/#${title.toLowerCase()}`}>{title}</a>
                             </li>
                         ))
                     }
