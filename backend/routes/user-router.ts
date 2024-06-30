@@ -1,5 +1,5 @@
 import express from 'express'
-import { addToCart, updateBillingAddress } from '../controllers/user-controller'
+import { addToCart, getCartItems, getCartValue, updateBillingAddress } from '../controllers/user-controller'
 import z from 'zod'
 import auth from '../middlewares/auth'
 const userRouter = express.Router()
@@ -29,9 +29,9 @@ userRouter.post('/billing-address',(req,res,next)=>{
 },updateBillingAddress)
 
 
-userRouter.post('/cart',(req,res,next)=>{
-    // validate product 
-},addToCart)
+userRouter.get('/cartvalue',getCartValue)
+userRouter.get('/cart',getCartItems)
+userRouter.post('/cart',addToCart)
 
 userRouter.put('/cart',(req,res,next)=>{
     // 

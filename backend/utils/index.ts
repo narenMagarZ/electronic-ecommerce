@@ -9,6 +9,7 @@ import jwt from 'jsonwebtoken'
 import bcrypt from 'bcryptjs'
 import fs from 'fs/promises'
 import handlebars from 'handlebars'
+import slugify from 'slugify'
 dotenv.config()
 
 const redis = new Redis()
@@ -159,3 +160,37 @@ export async function generateOrderLinkId(product:any){
 //     const html = template(data)
 //     console.log(html)
 // })()
+export const createProductSlug=(a:string)=>slugify(a,{replacement:'_',lower:true})
+
+interface ProductProps {
+    id:string
+    name:string
+    price:number
+    discountPercentage:number
+    stock:number
+    productImg:string
+}
+
+export function tailorProducts(products:ProductProps[]):{
+    id:string
+    name:string
+    price:number
+    offerPrice?:number
+    stock:number
+    productImg:string
+    url:string
+}[]{
+    const newProducts = products.map(({id,name,price,discountPercentage,...rest})=>{
+        const offerPrice = discountPercentage > 0 ? price - Math.floor((discountPercentage * price) / 100) : undefined
+        // delete product.discountPercentage
+        return {...rest,
+            offerPrice,
+            id,
+            name,
+            price,
+            url:createProductSlug(`${name} ${id}`)}
+    })
+    return newProducts
+}
+
+
