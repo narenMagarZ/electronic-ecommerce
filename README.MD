@@ -24,22 +24,22 @@ This is a full-stack e-commerce web application built using Node.js, React.js, T
 ## Screenshots
 
 ### Signin Page
-![signin Page](/public/screenshots/s2.png)
+![signin Page](/screenshots/s2.png)
 
 ### Home Page
-![home page](/public/screenshots/s3.png)
+![home page](/screenshots/s3.png)
 
 ### Product Details
-![product Details](/public/screenshots/s5.png)
+![product Details](/screenshots/s5.png)
 
 ### Shopping Cart
-![shopping Cart](/public/screenshots/s4.png)
+![shopping Cart](/screenshots/s4.png)
 
 ### Signup Page
-![signup page](/public/screenshots/s1.png)
+![signup page](/screenshots/s1.png)
 
 ### Order Confirmation
-![order Confirmation](/public/screenshots/s6.png)
+![order Confirmation](/screenshots/s6.png)
 
 ## Installation
 
