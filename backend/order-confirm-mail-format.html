@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .header h1 {
+            margin: 0;
+            color: #333;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        .content p {
+            margin: 0 0 10px;
+        }
+        .order-details, .shipping-address, .items-ordered, .order-summary {
+            margin-top: 20px;
+        }
+        .items-ordered table, .order-summary table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .items-ordered table th, .items-ordered table td, .order-summary table th, .order-summary table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Thank You for Your Purchase!</h1>
+        </div>
+        <div class="content">
+            <p>Dear {{customerName}},</p>
+            <p>Thank you for your recent purchase from [Your Company Name]! We are delighted to confirm your order and appreciate your trust in us.</p>
+        </div>
+        <div class="order-details">
+            <h2>Order Details:</h2>
+            <p><strong>Order Number:</strong> {{orderId}}</p>
+            <p><strong>Order Date:</strong> {{orderDate}}</p>
+        </div>
+        <div class="shipping-address">
+            <h2>Shipping Address:</h2>
+            <p>{{customerName}}</p>
+            <p>[Street Address]</p>
+            <p>[City, State, ZIP Code]</p>
+            <p>[Country]</p>
+        </div>
+        <div class="items-ordered">
+            <h2>Items Ordered:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>[Item 1 Name]</td>
+                        <td>[Qty 1]</td>
+                        <td>[Price 1]</td>
+                    </tr>
+                    <tr>
+                        <td>[Item 2 Name]</td>
+                        <td>[Qty 2]</td>
+                        <td>[Price 2]</td>
+                    </tr>
+                    <!-- Add more items as needed -->
+                </tbody>
+            </table>
+        </div>
+        <div class="order-summary">
+            <h2>Order Summary:</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Subtotal</th>
+                        <td>[Subtotal]</td>
+                    </tr>
+                    <tr>
+                        <th>Shipping</th>
+                        <td>[Shipping Cost]</td>
+                    </tr>
+                    <tr>
+                        <th>Total</th>
+                        <td>[Total Amount]</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="content">
+            <p>Your order is being processed and you will receive another email with the tracking information once your package is on its way.</p>
+            <p>If you have any questions or need further assistance, please do not hesitate to contact our customer service team at [Customer Service Email] or call us at [Customer Service Phone Number].</p>
+            <p>Thank you for shopping with us!</p>
+        </div>
+        <div class="footer">
+            <p>Best regards,</p>
+            <p>[Your Name]</p>
+            <p>[Your Position]</p>
+            <p>[Your Company Name]</p>
+            <p>[Company Website]</p>
+            <p>[Company Email]</p>
+            <p>[Company Phone Number]</p>
+        </div>
+    </div>
+</body>
+</html>
